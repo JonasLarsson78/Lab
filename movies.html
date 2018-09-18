@@ -3,31 +3,68 @@
 <head>
 <meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">    
 <title>Lab 1 HTML/CSS</title>
 </head>
 <body>
     
 <header><p></p>
-    <div class="flexbox1">
-        <h1>Välkommen till Lab 1 HTML/CSS</h1>
+    <div class="rubrik">
+        <h1>Lab 1 HTML/CSS</h1>
     </div>
 </header>
     
 <nav>
-    <ul>
-      <li><a href="index.html">Hem</a></li>
-      <li><a href="about.html">Om</a></li>
-      <li><a class="active" href="movies.html">Filmer</a></li>
-      <li><a href="links.html">Länkar</a></li>
-      <li><a href="contact.html">Kontakt</a></li>
+    <ul class="ul">
+      <li class="li"><a class="a" href="index.html">Hem</a></li>
+      <li class="li"><a class="a" href="about.html">Om</a></li>
+      <li class="li"><a class="a active" href="movies.html">Filmer</a></li>
+      <li class="li"><a class="a" href="links.html">Länkar</a></li>
+      <li class="li"><a class="a" href="contact.html">Kontakt</a></li>
     </ul>
 </nav>
 
-<main>main
+<main>
+    <div class="content">
+    <table class="table">
+        <tr class="tr">
+            <th class="th">Titel:</th>
+            <th class="th">Filmgenre:</th>
+            <th class="th">Huvudroll:</th>
+            <th class="th">Poäng:</th>
+        </tr>
+        <tr class="tr">
+            <td class="td">Star Wars: The Last Jedi</td>
+            <td class="td">SciFy</td>
+            <td class="td">Mark Hamill</td>
+            <td class="td"><i class="material-icons">star</i> 7,2</td>
+        </tr>
+        <tr class="tr">
+            <td class="td">Die Hard</td>
+            <td class="td">Action</td>
+            <td class="td">Bruse Willis</td>
+            <td class="td"><i class="material-icons">star</i> 8,4</td>
+        </tr>
+        <tr class="tr">
+            <td class="td">Logan - The Wolverine</td>
+            <td class="td">Action</td>
+            <td class="td">Hugh Jackman </td>
+            <td class="td"><i class="material-icons">star</i> 8,1</td>
+
+        </tr>
+        <tr class="tr">
+            <td class="td">Deadpool</td>
+            <td class="td">Äventyr</td>
+            <td class="td">Ryan Reynolds</td>
+            <td class="td"><i class="material-icons">star</i> 9,5</td>
+        </tr>
+    </table>
+    </div>
 </main>
 
-<footer>footer
+<footer>
+    <div><p align="center">Copyright © Jonas Larsson</p></div>
 </footer>
 
 </body>
